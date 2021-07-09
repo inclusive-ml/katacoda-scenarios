@@ -1,0 +1,44 @@
+{
+  "title": "NLP Nanodegree",
+  "description": "Lesson 1 of Starting Out",
+  "difficulty": "Beginner",
+  "time": "1 hour",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "code": "set-env.sh"
+    },
+    "steps": [
+      {
+        "title": "01 Introduction",
+        "text": "steps/01-intro.md"
+      },
+      {
+        "title": "02 Challenge",
+        "text": "steps/02-challenge.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*",
+          "target": "~/sandbox",
+          "chmod": "+r"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "hideintro": false,
+    "hideHiddenFiles": false,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "sandbox",
+    "uimessage1": "welcome!"
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}

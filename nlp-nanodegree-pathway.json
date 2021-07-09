@@ -1,0 +1,12 @@
+{
+  "title": "NLP Nanodegree",
+  "description": "...",
+  "icon": "fa-katacoda",
+  "courses": [
+    {
+      "course_id": "starting-out",
+      "title": "Starting Out",
+      "description": "Starting Out"
+    }
+  ]
+}
