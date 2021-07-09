@@ -1,0 +1,38 @@
+{
+  "title": "Model Iterations",
+  "description": "Day 3 of data pipelines",
+  "difficulty": "Beginner",
+  "time": "1 hour",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+        "code": "set-env.sh"
+    },
+    "steps": [
+      {
+        "title": "Exercices",
+        "text": "steps/step1.md"
+      }
+
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+          {
+          "file": "*",
+          "target": "~/",
+          "chmod": "+r"
+          }
+        ]
+    }
+  },
+  "environment": {
+    "hideintro": false,
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}

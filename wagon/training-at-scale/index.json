@@ -1,0 +1,57 @@
+{
+  "title": "Training At Scales Exercises",
+  "description": "Training At Scales Exercises",
+  "difficulty": "Beginner",
+  "time": "1 hour",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "code": "set-env.sh"
+    },
+    "steps": [
+      {
+        "title": "Exercices",
+        "text": "recap.md"
+      },
+      {
+        "title": "01 - GCP Setup",
+        "text": "01.md"
+      },
+      {
+        "title": "02 -  Submit Train",
+        "text": "02.md"
+      },
+      {
+        "title": "03 - Train Taxi Fare",
+        "text": "03.md"
+      },
+      {
+        "title": "04 - Scaling",
+        "text": "04.md"
+      },
+      {
+        "title": "05 - Use-GCP-Power",
+        "text": "05.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+          {
+          "file": "*",
+          "target": "~/",
+          "chmod": "+r"
+          }
+      ]
+    }
+  },
+  "environment": {
+    "hideintro": false,
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
